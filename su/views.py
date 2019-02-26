@@ -1,6 +1,7 @@
 
 from django.http import HttpResponseRedirect, Http404
 
+from django.contrib import auth
 from django.contrib.auth.decorators import login_required
 from django.contrib.auth.models import User
 
@@ -10,7 +11,7 @@ def switch_user(request, username):
     if request.user.is_superuser:
         try:
             user = User.objects.get(username=username)
-            request.session.__setitem__("_auth_user_id", user.id)
+            auth.login(request, user)
             from_url = request.META.get("HTTP_ORIGIN", "")
             if not from_url:
                 from_url = request.META.get("HTTP_HOST", "")
