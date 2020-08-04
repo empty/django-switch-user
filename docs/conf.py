@@ -1,4 +1,4 @@
-from __future__ import unicode_literals
+
 # -*- coding: utf-8 -*-
 #
 # pypackager documentation build configuration file, created by
@@ -217,7 +217,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ('index', 'django-switch-user', u'django-switch-user Documentation',
+    ('index', 'django-switch-user', 'django-switch-user Documentation',
      ['Michael'], 1)
 ]
 
@@ -231,7 +231,7 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  ('index', 'django-switch-user', u'django-switch-user Documentation',
+  ('index', 'django-switch-user', 'django-switch-user Documentation',
    '', 'django-switch-user', 'One line description of project.',
    'Miscellaneous'),
 ]
