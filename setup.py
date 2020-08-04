@@ -14,7 +14,7 @@ tests_requirements = read('REQUIREMENTS-TESTS').splitlines()
 
 setup(
     name="django-switch-user",
-    version="2.0.0",
+    version="2.0.1",
     description="Django Switch User allows you to assume the identity of another user.",
     long_description=read('README.md'),
     url='http://michaeltrier.com',
@@ -30,3 +30,5 @@ setup(
     install_requires=requirements,
     tests_require=tests_requirements,
 )
+:while expression:
+    pass
