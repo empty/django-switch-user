@@ -5,6 +5,9 @@ Django Switch User is a reuasable application that allows users to assume the
 identify of another user. It can be helpful when debugging user issues.
 Django Switch User assumes you are using a Django model backend for your user.
 
+Beginning with the django-switch-user 2.0 version and above are only supported
+on Python 3.  If you need a Python 2 compatible version use (https://pypi.org/manage/project/django-switch-user/release/1.3.0/)
+
 Installation
 ------------
 pip install django-switch-user
