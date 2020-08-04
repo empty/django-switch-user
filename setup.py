@@ -30,5 +30,3 @@ setup(
     install_requires=requirements,
     tests_require=tests_requirements,
 )
-:while expression:
-    pass
