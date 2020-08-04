@@ -16,7 +16,7 @@ setup(
     name="django-switch-user",
     version="2.0.0",
     description="Django Switch User allows you to assume the identity of another user.",
-    long_description=read('README.rst'),
+    long_description=read('README.md'),
     url='http://michaeltrier.com',
     license='MIT',
     author='Michael Trier',
