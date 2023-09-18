@@ -15,4 +15,4 @@ pip install django-switch-user
 
 After installing Django Switch User you just need to add `su` to `INSTALLED_APPS` and wire it into your urls.
 
-    url(r"^admin/su/", include("su.urls")),
+    re_path(r"^admin/su/", include("su.urls")),

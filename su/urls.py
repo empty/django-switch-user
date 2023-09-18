@@ -1,8 +1,8 @@
 
-from django.conf.urls import url
+from django.urls import re_path
 
 from . import views
 
 urlpatterns = [
-    url(r"^(?P<username>.*)/$", views.switch_user, name="su_switch_user"),
+    re_path(r"^(?P<username>.*)/$", views.switch_user, name="su_switch_user"),
 ]
